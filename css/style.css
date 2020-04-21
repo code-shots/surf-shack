@@ -47,7 +47,8 @@ header {
   height: 100vh;
   background-image: url(https://bit.ly/2y7NKIn);
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  z-index: -1; }
 
 .right {
   flex: 1;
