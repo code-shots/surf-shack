@@ -48,4 +48,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		duration: 4000,
 		opacity: [0, 1],
 	})
+	
+	// MOBILE NAV
+	let hamburger = document.querySelector('.hamburger');
+	let mobileNav = document.querySelector('.mobile-nav');
+
+	hamburger.addEventListener('click', () => {
+		mobileNav.classList.toggle('show-mobile-nav');
+	})
 })
