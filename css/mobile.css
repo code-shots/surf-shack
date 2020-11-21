@@ -1,0 +1,93 @@
+body {
+  height: auto;
+  overflow-y: auto;
+}
+
+header {
+  padding: 0;
+}
+
+header nav {
+  display: none;
+}
+
+.logo {
+  top: 30px;
+  left: 30px
+}
+
+.page-wrapper {
+  display: block;
+}
+
+.left {
+  height: 30vh;
+}
+
+.right {
+  height: auto;
+}
+
+.right h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+  max-width: 300px;
+  margin-left: 10%;
+}
+
+.right p {
+  width: 100%;
+  font-size: 13px
+}
+
+.content-wrapper {
+  position: relative;
+  top: -50px;
+  left: 0;
+  width: 100vw;
+}
+
+.article-wrapper {
+  margin-left: 0;
+  padding-right: 0;
+  width: 100vw;
+  padding: 0 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-nav {
+  background-color: #FFF;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  height: 400px;
+  width: 100vw;
+  top: 85px;
+  z-index: 10000;
+  padding: 50px 0;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+.hamburger {
+  display: block;
+  height: 30px;
+  width: 25px;
+  position: absolute;
+  top: 35px;
+  right: 30px;
+}
+
+.hamburger div {
+  height: 2px;
+  width: 100%;
+  background-color: #FFF;
+  margin-bottom: 5px;
+}
+
+.show-mobile-nav {
+  display: flex;
+}
